@@ -2,7 +2,7 @@
 ## 概要
 これはスクラッチの「私について」に最終ログイン時間を表示させる拡張機能です。
 ## 使い方
-### インストール
+### ダウンロード
 方法が2つあります。  
 #### ZIPをダウンロードする方法
 1,[こちら](https://github.com/chitose1020/Scratch-last-login/archive/refs/heads/main.zip)からダウンロードし、解凍する。  
