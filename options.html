@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Options</title>
+  <meta name=description content="">
+ </head>
+ <body>
+  <h1>Scratch last login</h1>
+  <h2>Text data</h2>
+  <textarea id="text" cols="40" rows="10" name="text"
+   placeholder="表示したいテキストを入力してください。コマンドのリストは下にあります。">最終ログイン
+[@y]/[@m]/[@d]  [@h]:[@mi](JST)
+この表示はJavaScriptで自動更新されています。</textarea>
+  <p>残り<span id="span">200</span>文字</p>
+  <script src="options.js"></script>
+  <h2>コマンド</h2>
+  <table>
+   <tr>
+    <th>コマンド</th>
+    <th>出力</th>
+   </tr>
+   <tr>
+    <td>[@y]</td>
+    <td>Year</td>
+   </tr>
+   <tr>
+    <td>[@m]</td>
+    <td>Month</td>
+   </tr>
+   <tr>
+    <td>[@d]</td>
+    <td>Day</td>
+   </tr>
+   <tr>
+    <td>[@h]</td>
+    <td>Hour</td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>Minute</td>
+   </tr>
+   <tr>
+    <td>[s]</td>
+    <td>Second</td>
+   </tr>
+  </table>
+ </body>
+</html>
